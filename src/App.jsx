@@ -7,14 +7,14 @@ const App = () => {
   return (
     <>
       <MainHeader />
-      <div>
+      <main>
         <Route path="/welcome">
           <Welcome />
         </Route>
         <Route path="/products">
           <Products />
         </Route>
-      </div>
+      </main>
     </>
   );
 };
